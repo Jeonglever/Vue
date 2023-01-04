@@ -1,11 +1,11 @@
-<template>
+<template> <!-- Vue는 template 영역에서 html 코드들을 다루게 된다. -->
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+// script 안에서 import 하는 형식
 export default {
   name: 'App',
   components: {
