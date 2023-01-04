@@ -1,9 +1,13 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div>
+    <nav>
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> |
+      <router-link to="/databinding/string">DataBinding</router-link>
+    </nav>
+    <router-view />
+    <!-- router-view : 현재 클릭한 component에 구성된 내용으로(veiw) 교체되는 태그 -->
+  </div>
 </template>
 
 <style>
